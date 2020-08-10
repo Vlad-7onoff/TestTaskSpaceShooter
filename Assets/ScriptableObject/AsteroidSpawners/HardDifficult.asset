@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7807d33d098fa49aa433fb3fca62b7, type: 3}
+  m_Name: HardDifficult
+  m_EditorClassIdentifier: 
+  _asteroidsTypes:
+  - {fileID: 11400000, guid: ac7e46bfaedefc54d8e16785a5df4e9e, type: 2}
+  - {fileID: 11400000, guid: ba1de8320128e1e46ba5c7c81982f420, type: 2}
+  - {fileID: 11400000, guid: 01cf125761de5414ab0b332559b138f5, type: 2}
+  _spawnTime: 1
