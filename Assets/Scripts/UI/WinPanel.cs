@@ -39,8 +39,6 @@ public class WinPanel : MonoBehaviour
 
     public void AcceptButtonClick()
     {
-        Debug.Log(_levelHandler.LevelNumber.ToString());
-        Debug.Log(PlayerPrefs.GetInt(_levelHandler.LevelNumber.ToString()));
         if (PlayerPrefs.GetInt(_levelHandler.LevelNumber.ToString()) == 1)
         {
             PlayerPrefs.SetInt(_levelHandler.LevelNumber.ToString(), 2);
